@@ -1,0 +1,16 @@
+<!--pages/shopList/shopList.wxml-->
+<view class="shop" wx:for="{{shopList}}" wx:key="{{id}}">
+  <image src="{{item.images[0]}}"></image>
+  <view class="shop-info">
+    <text class="shop-title hide">{{item.name}}</text>
+    <text class="shop-tel">电话：{{item.phone}}</text>
+    <text class="shop-adress">地址：{{item.address}}</text>
+    <text class="shop-time">营业时间：{{item.businessHours}}</text>
+  </view>
+  <view class="shop-star">
+    <view class="star-after">★★★★★</view>
+    <view class="star-before" style="width:{{item.score}}%">★★★★★</view>
+  </view>
+</view>
+<view class="loadmore loading" wx:if="{{hasMore}}">正在加载...</view>
+<view class="bottom" wx:else="hasMore">我也是有底线的</view>

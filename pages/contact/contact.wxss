@@ -1,0 +1,11 @@
+/* pages/contact/contact.wxss */
+.father {
+  height: 200rpx;
+  width: 200rpx;
+  background-color: #06f;
+}
+.son {
+  height: 100rpx;
+  width: 100rpx;
+  background-color: pink;
+}

@@ -1,0 +1,23 @@
+<!--pages/profile/profile.wxml-->
+<view class="card">
+  <text class="card-title">demo-title</text>
+  <text class="card-time">2019-01-01</text>
+  <navigator class="card-img">
+    <image src="https://image1.suning.cn/uimg/aps/material/155058120060465377.jpg" mode="aspectFill"></image>
+  </navigator>
+  <text class="card-desc">越努力，越幸运</text>
+  <navigator>
+    <text class="card-read arrow">查看详情</text>
+  </navigator>
+</view>
+<view class="card">
+  <text class="card-title">demo-title</text>
+  <text class="card-time">2019-01-01</text>
+  <navigator class="card-img">
+    <image src="https://image3.suning.cn/uimg/aps/material/155429640067652550.jpg" mode="aspectFill"></image>
+  </navigator>
+  <text class="card-desc">越努力，越幸运</text>
+  <navigator>
+    <text class="card-read arrow">查看详情</text>
+  </navigator>
+</view>

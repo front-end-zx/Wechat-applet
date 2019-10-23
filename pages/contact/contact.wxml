@@ -1,0 +1,4 @@
+<view class="father" bindtap="fatherHandle">
+ 父亲
+ <view class="son" catchtap="sonHandle" data-index="1">儿子</view>
+</view>

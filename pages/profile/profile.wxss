@@ -1,0 +1,26 @@
+page {
+  background-color: #f5f5f5;
+}
+.head {
+  height: 360rpx;
+  width: 100%;
+  background-color: #f60;
+}
+.head image {
+  height: 160rpx;
+  width: 160rpx;
+  border: 6rpx solid rgba(0,0,0,0.1);
+  border-radius: 50%;
+}
+.cell {
+  background-color: #fff;
+}
+.cell .cell-item {
+  height: 80rpx;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.cell-item text {
+  padding: 20rpx 30rpx;
+  font-size: 14px;
+}
